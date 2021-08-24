@@ -19,11 +19,11 @@ public class SafeBox {
 		SafeBox.password = password;
 	}
 	
-	public static String getSafe() {
+	public String getSafe() {
 		return safe;
 	}
 
-	public static void setSafe(String safe) {
+	public void setSafe(String safe) {
 		SafeBox.safe = safe;
 	}
 	

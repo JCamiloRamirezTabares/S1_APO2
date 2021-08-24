@@ -116,8 +116,6 @@ public class SafeBoxGUI {
             } else if(box.evaluatePassword(valueInt) == true) {
 
 
-                labTtitle.setText(value);
-
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SafeBoxW2.fxml"));
                 fxmlLoader.setController(this);
                 Parent root = fxmlLoader.load();
@@ -126,6 +124,8 @@ public class SafeBoxGUI {
                 mainStage.setScene(scene);
                 mainStage.setTitle("Windows 2");
                 mainStage.show();
+                
+                txtArea.setText(box.getSafe());
 
             } else{
 
@@ -154,6 +154,10 @@ public class SafeBoxGUI {
         mainStage.setScene(scene);
         mainStage.setTitle("Windows 1");
         mainStage.show();
+        
+        
+        String imfo = txtArea.getText();
+        box.setSafe(imfo);
         
     }
     
