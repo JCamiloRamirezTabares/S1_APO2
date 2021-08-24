@@ -8,18 +8,18 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Blanchedalmons;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label fx:id="labTtitle" layoutX="126.0" layoutY="14.0" prefHeight="93.0" prefWidth="349.0" text="SAFE BOX">
+      <Label layoutX="126.0" layoutY="14.0" prefHeight="93.0" prefWidth="349.0" text="SAFE BOX">
          <font>
             <Font name="Cooper Black" size="64.0" />
          </font>
       </Label>
-      <Button fx:id="btnJoin" layoutX="50.0" layoutY="328.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: coral;" text="CHANGE PASSWORD">
+      <Button fx:id="bttnChangePass" layoutX="50.0" layoutY="328.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: coral;" text="CHANGE PASSWORD">
          <font>
             <Font name="Impact" size="24.0" />
          </font>
       </Button>
       <TextArea fx:id="txtArea" layoutX="145.0" layoutY="107.0" prefHeight="198.0" prefWidth="310.0" />
-      <Button fx:id="btnJoin1" layoutX="331.0" layoutY="328.0" mnemonicParsing="false" onAction="#closeSafeBox" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: coral;" text="CLOSE SAFE BOX">
+      <Button fx:id="bttnClose" layoutX="331.0" layoutY="328.0" mnemonicParsing="false" onAction="#closeSafeBox" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: coral;" text="CLOSE SAFE BOX">
          <font>
             <Font name="Impact" size="24.0" />
          </font>
